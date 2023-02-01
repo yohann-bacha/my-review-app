@@ -5,7 +5,7 @@ var app = express()
 
 app.get('/', function (req, res) {
   res.write('Hello World!')
-  res.write('\nThis is my secure website, yaaay!')
+  res.write('\nThis is my secure website, yaaay! I am the master now')
   res.end()
 })
 

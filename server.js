@@ -5,11 +5,7 @@ var app = express()
 
 app.get('/', function (req, res) {
   res.write('Hello World!')
-  res.write(JSON.stringify(process.env))
-  res.write("\noh no that is actually really bad\n")
-  res.write(JSON.stringify(process.env))
-  res.write('This is the end of the world!')
-  res.write('(as we know it)')
+  res.write('\nThis is my secure website')
   res.end()
 })
 
